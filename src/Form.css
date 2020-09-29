@@ -1,0 +1,41 @@
+.formContainer {
+  text-align: center;
+}
+
+.formElements{
+  padding-top: 5px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+.formLabel {
+  text-align: left;
+  font-size: smaller;
+  color: #555555;
+}
+.formLabel::after{
+  content: "\a";
+  white-space: pre;
+}
+.formControl {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.titleSpanText {
+  text-align: center;
+}
+.buttonSubmit {
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  padding: 5px;
+  width: 30%;
+}
