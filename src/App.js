@@ -107,66 +107,6 @@ class App extends React.Component {
     });
   }
 
-  //
-  // getList(event, id) {
-  //   this.setState(
-  //     {
-  //       developer: {
-  //         title: "Loading...",
-  //         author: "Loading..."
-  //       }
-  //     },
-  //     () => {
-  //       fetch("https://jsonplaceholder.typicode.com/posts/" + id)
-  //         .then(res => res.json())
-  //         .then(result => {
-  //           this.setState({
-  //             developer: {
-  //               title: result.title,
-  //               author: result.author ? result.author : ""
-  //             }
-  //           });
-  //         });
-  //     }
-  //   );
-  // }
-  //
-  // updateList(event, id) {
-  //   fetch("https://jsonplaceholder.typicode.com/posts/" + id, {
-  //     method: "PUT",
-  //     headers: {
-  //       "Content-Type": "application/json"
-  //     },
-  //     body: JSON.stringify(this.state.developer)
-  //   })
-  //     .then(res => res.json())
-  //     .then(result => {
-  //       this.setState({
-  //         developer: {
-  //           title: "",
-  //           author: ""
-  //         }
-  //       });
-  //       this.getDevelopers();
-  //     });
-  // }
-  //
-  // deleteList(event, id) {
-  //   fetch("https://jsonplaceholder.typicode.com/posts/" + id, {
-  //     method: "DELETE"
-  //   })
-  //     .then(res => res.json())
-  //     .then(result => {
-  //       this.setState({
-  //         developer: {
-  //           title: "",
-  //           author: ""
-  //         }
-  //       });
-  //       this.getDevelopers();
-  //     });
-  // }
-
   render() {
     return (
       <div className="container">
